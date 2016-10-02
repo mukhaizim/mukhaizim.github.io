@@ -1,3 +1,40 @@
 body {
-	background: blue;
+  max-width: 960px;
+}
+.pictures {
+	height: 8cm;
+	width: 6cm;
+	border-style: groove; 
+	border-color: yellow;
+	padding: 0.5cm
+}
+#dope {
+	position: relative;
+	left: 4cm;
+}
+
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 1cm;
+	color: white;
+	background-image: url("abstract-mosaic-background.png");
+	padding: 1.5cm;
+	font-family: 'Dancing Script', cursive;
+}
+
+a:visited {
+    color: green;
+ }
+
+ ul{
+ 	list-style-type: square;
+ }
+@media screen and (max-width: 500px) {
+	body {
+		font-size: .5em;
+	}
 }
